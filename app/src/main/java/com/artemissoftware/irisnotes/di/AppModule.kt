@@ -5,10 +5,7 @@ import androidx.room.Room
 import com.artemissoftware.irisnotes.feature_note.data.data_source.NoteDatabase
 import com.artemissoftware.irisnotes.feature_note.data.repository.NoteRepositoryImpl
 import com.artemissoftware.irisnotes.feature_note.domain.repository.NoteRepository
-import com.artemissoftware.irisnotes.feature_note.domain.use_case.AddNoteUseCase
-import com.artemissoftware.irisnotes.feature_note.domain.use_case.DeleteNoteUseCase
-import com.artemissoftware.irisnotes.feature_note.domain.use_case.GetNotesUseCase
-import com.artemissoftware.irisnotes.feature_note.domain.use_case.NotesUseCases
+import com.artemissoftware.irisnotes.feature_note.domain.use_case.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -42,7 +39,7 @@ object AppModule {
             getNotes = GetNotesUseCase(repository),
             deleteNote = DeleteNoteUseCase(repository),
             addNote = AddNoteUseCase(repository),
-//            getNote = GetNote(repository)
+            getNote = GetNoteUseCase(repository)
         )
     }
 }
