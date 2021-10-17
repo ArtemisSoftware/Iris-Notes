@@ -1,4 +1,4 @@
-package com.artemissoftware.irisnotes.feature_source.domain.model
+package com.artemissoftware.irisnotes.feature_note.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

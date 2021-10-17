@@ -1,4 +1,4 @@
-package com.artemissoftware.irisnotes.feature_source.presentation
+package com.artemissoftware.irisnotes.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

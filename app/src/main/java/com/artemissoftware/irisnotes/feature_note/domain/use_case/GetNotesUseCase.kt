@@ -1,9 +1,9 @@
-package com.artemissoftware.irisnotes.feature_source.domain.use_case
+package com.artemissoftware.irisnotes.feature_note.domain.use_case
 
-import com.artemissoftware.irisnotes.feature_source.domain.model.Note
-import com.artemissoftware.irisnotes.feature_source.domain.repository.NoteRepository
-import com.artemissoftware.irisnotes.feature_source.domain.util.NoteOrder
-import com.artemissoftware.irisnotes.feature_source.domain.util.OrderType
+import com.artemissoftware.irisnotes.feature_note.domain.model.Note
+import com.artemissoftware.irisnotes.feature_note.domain.repository.NoteRepository
+import com.artemissoftware.irisnotes.feature_note.domain.util.NoteOrder
+import com.artemissoftware.irisnotes.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

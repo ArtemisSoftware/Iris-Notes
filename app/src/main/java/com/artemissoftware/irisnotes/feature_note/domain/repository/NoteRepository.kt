@@ -1,6 +1,6 @@
-package com.artemissoftware.irisnotes.feature_source.domain.repository
+package com.artemissoftware.irisnotes.feature_note.domain.repository
 
-import com.artemissoftware.irisnotes.feature_source.domain.model.Note
+import com.artemissoftware.irisnotes.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 interface NoteRepository {

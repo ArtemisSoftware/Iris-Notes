@@ -1,8 +1,8 @@
-package com.artemissoftware.irisnotes.feature_source.data.repository
+package com.artemissoftware.irisnotes.feature_note.data.repository
 
-import com.artemissoftware.irisnotes.feature_source.data.data_source.NoteDao
-import com.artemissoftware.irisnotes.feature_source.domain.model.Note
-import com.artemissoftware.irisnotes.feature_source.domain.repository.NoteRepository
+import com.artemissoftware.irisnotes.feature_note.data.data_source.NoteDao
+import com.artemissoftware.irisnotes.feature_note.domain.model.Note
+import com.artemissoftware.irisnotes.feature_note.domain.repository.NoteRepository
 import kotlinx.coroutines.flow.Flow
 
 class NoteRepositoryImpl(

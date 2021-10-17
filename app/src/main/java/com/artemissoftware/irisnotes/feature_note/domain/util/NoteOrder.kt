@@ -1,4 +1,4 @@
-package com.artemissoftware.irisnotes.feature_source.domain.util
+package com.artemissoftware.irisnotes.feature_note.domain.util
 
 sealed class NoteOrder(val orderType: OrderType) {
     class Title(orderType: OrderType): NoteOrder(orderType)

@@ -1,7 +1,7 @@
-package com.artemissoftware.irisnotes.feature_source.data.data_source
+package com.artemissoftware.irisnotes.feature_note.data.data_source
 
 import androidx.room.*
-import com.artemissoftware.irisnotes.feature_source.domain.model.Note
+import com.artemissoftware.irisnotes.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 @Dao
