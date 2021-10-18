@@ -80,7 +80,7 @@ fun NotesScreen(
                         .padding(vertical = 16.dp),
                     noteOrder = state.noteOrder,
                     onOrderChange = {
-                        //viewModel.onEvent(NotesEvent.Order(it))
+                        viewModel.onEvent(NotesEvent.Order(it))
                     }
                 )
             }
